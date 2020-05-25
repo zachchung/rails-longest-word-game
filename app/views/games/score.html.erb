@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Result</h1>
+
+  <!-- Method 2: display logic at view (<strong>) -->
+  <% if @result == "not in grid" %>
+    Sorry but <strong><%= @word %></strong> can't be built out of <%= @letters %>
+  <% else %>
+    <!-- Method 1: display logic at controller: -->
+    <%= @result %>
+  <% end %>
+  <br>
+
+
+  <%= link_to "Play again", new_path %>
+</div>
