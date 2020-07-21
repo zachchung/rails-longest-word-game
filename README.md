@@ -1,3 +1,3 @@
 # Longest Word Game
 
-Type the longest word you see from the grid
+Rule: type the longest word you see from the grid
